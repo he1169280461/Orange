@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.he.orange">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_oo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".OrangeMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SmartAbout"
+            android:label="Orange V8 feature">
+        </activity>
+        <activity
+            android:name=".SmartCare"
+            android:label="Orange care info">
+        </activity>
+        <activity
+            android:name=".Orangesaleinfo"
+            android:label="Orange sales info">
+        </activity>
+        <activity
+            android:name=".Findus"
+            android:label="Find us">
+        </activity>
+    </application>
+
+</manifest>
